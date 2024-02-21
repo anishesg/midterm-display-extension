@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Midterm Display",
+    "version": "1.0",
+    "description": "Display 'Midterm' on every new tab",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "index.html"
+
+    },
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+  }
+  
